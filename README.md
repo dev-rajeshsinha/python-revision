@@ -83,9 +83,9 @@ pip install -r <folder>/requirements.txt
 
 The content in this repository is drawn from the following sources. New sources will be added as the revision journey continues.
 
-| Source                   | Type    | Link                         |
-| ------------------------ | ------- | ---------------------------- |
-| Complete Python Tutorial | YouTube | https://youtu.be/UrsmFxEIp5k |
+| Source                        | Type    | Link                         |
+| ----------------------------- | ------- | ---------------------------- |
+| Complete Python Tutorial 2026 | YouTube | https://youtu.be/UrsmFxEIp5k |
 
 > This section will be updated as new learning materials are added.
 
