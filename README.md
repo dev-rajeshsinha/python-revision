@@ -3,7 +3,7 @@
 > A long-term Python revision hub — collecting code, notes, exercises, and study materials from tutorials, books, workshops, and more.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 
 ---
 
@@ -60,7 +60,7 @@ python-revision/
 
 ### Prerequisites
 
-- Python **3.8+** installed — download from [python.org](https://www.python.org/downloads/).
+- Python **3.12** installed — download from [python.org](https://www.python.org/downloads/).
 
 ### Clone the repository
 
@@ -95,52 +95,15 @@ pip install -r <folder>/requirements.txt
 
 ---
 
-## 📐 Conventions
+## 📚 Learning Resources
 
-| Convention | Detail |
-|---|---|
-| **Script naming** | `snake_case.py`, descriptive and topic-specific |
-| **Folder naming** | `snake_case/`, one folder per major topic |
-| **Notes** | Markdown (`.md`) stored in `notes/`, named after the topic |
-| **Exercises** | Problem in `exercises/problems/`, solution in `exercises/solutions/` |
-| **Comments** | Inline comments explain *why*, not just *what* |
-| **Versioning** | No date-based names — rely on Git history for chronology |
+The content in this repository is drawn from the following sources. New sources will be added as the revision journey continues.
 
----
-
-## ✅ Progress Tracker
-
-Use this table to track topics as they are studied and revised.
-
-| Topic | Notes | Scripts | Exercises | Status |
-|---|---|---|---|---|
-| Variables & Data Types | ☐ | ☐ | ☐ | 🔲 Not started |
-| Control Flow | ☐ | ☐ | ☐ | 🔲 Not started |
-| Functions | ☐ | ☐ | ☐ | 🔲 Not started |
-| Object-Oriented Programming | ☐ | ☐ | ☐ | 🔲 Not started |
-| Modules & Packages | ☐ | ☐ | ☐ | 🔲 Not started |
-| File I/O | ☐ | ☐ | ☐ | 🔲 Not started |
-| Exception Handling | ☐ | ☐ | ☐ | 🔲 Not started |
-| Comprehensions | ☐ | ☐ | ☐ | 🔲 Not started |
-| Generators & Iterators | ☐ | ☐ | ☐ | 🔲 Not started |
-| Decorators | ☐ | ☐ | ☐ | 🔲 Not started |
-| Standard Library | ☐ | ☐ | ☐ | 🔲 Not started |
-| Testing (unittest / pytest) | ☐ | ☐ | ☐ | 🔲 Not started |
-
-> **Legend:** ✅ Done · 🔄 In progress · 🔲 Not started
-
----
-
-## 📚 Resources
-
-| Resource | Type | Link |
+| Source | Type | Link / Reference |
 |---|---|---|
-| Official Python Docs | Documentation | [docs.python.org](https://docs.python.org/3/) |
-| Python Tutorial (official) | Tutorial | [docs.python.org/3/tutorial](https://docs.python.org/3/tutorial/) |
-| Real Python | Articles & Tutorials | [realpython.com](https://realpython.com/) |
-| Automate the Boring Stuff | Book (free online) | [automatetheboringstuff.com](https://automatetheboringstuff.com/) |
-| Python Cheatsheet | Quick Reference | [pythoncheatsheet.org](https://www.pythoncheatsheet.org/) |
-| Exercism — Python Track | Practice Exercises | [exercism.org/tracks/python](https://exercism.org/tracks/python) |
+| _Add tutorial name here_ | YouTube / Book / Workshop | _Add link or reference_ |
+
+> This section will be updated as new learning materials are added.
 
 ---
 
