@@ -25,6 +25,16 @@ print(
 )  # Output: ID of updated string_obj: <some unique identifier>
 print()  # Just to add a newline for better readability of the output
 
+# We can access individual characters in a string using their index, which starts from 0. We can also use negative indices to access characters from the end of the string, where -1 is the last character. But we cannot modify the characters in a string directly since strings are immutable.
+
+string_obj = "Hello, World!"
+print(f"Original string: {string_obj}")  # Output: Original string: Hello, World!
+print(f"string_obj[0]: {string_obj[0]}")  # Output: string_obj[0]: H
+print(f"string_obj[7]: {string_obj[7]}")  # Output: string_obj[7]: W
+
+# The following line will raise an error because we cannot modify a string directly.
+# string_obj[0] = 'h'  # This will raise a TypeError: 'str' object does not support item assignment
+
 # ----------------------------------------------------------------------------------------------------------------------------------------
 
 # Slicing a string allows us to extract a portion of the string by specifying a range of indices. The syntax for slicing is: string[start:stop:step]. The 'start' index is inclusive, while the 'stop' index is exclusive. The 'step' parameter is optional and specifies the step size for slicing, which implies the interval between each character to be included in the slice, for example: string[0:10:2] will include every second character from index 0 to 9.
