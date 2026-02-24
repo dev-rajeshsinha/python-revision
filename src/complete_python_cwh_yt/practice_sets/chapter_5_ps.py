@@ -7,12 +7,16 @@
 sample_set = {8, 8.0}
 print(f"Set with 8 and 8.0: {sample_set}")  # Output: {8}
 
+# ----------------------------------------------------------------------------------------------------------------------------------------
+
 # 2. Can we have a set with two values 8 (as integer) and "8" (as string)?
 
 # Yes, we can have a set with both 8 (as an integer) and "8" (as a string). In this case, they are considered different values because they are of different data types. Therefore, both 8 and "8" will be stored in the set without any issues.
 
 sample_set = {8, "8"}
 print(f"Set with 8 and '8': {sample_set}")  # Output: {8, '8'}
+
+# ----------------------------------------------------------------------------------------------------------------------------------------
 
 # 3. If there is a list inside a set, can we change the values of that list?
 
