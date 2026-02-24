@@ -17,3 +17,5 @@ print(f"Set with 8 and '8': {sample_set}")  # Output: {8, '8'}
 # 3. If there is a list inside a set, can we change the values of that list?
 
 # No, we cannot have a list inside a set because lists are mutable and sets require their elements to be immutable. If we try to add a list to a set, we will get a TypeError. However, if we have a tuple (which is immutable) inside a set, we can change the values of the tuple by creating a new tuple with the desired values and replacing the old one in the set.
+
+# -------------------------------------------------------------------------------------------------------------------------------------------
