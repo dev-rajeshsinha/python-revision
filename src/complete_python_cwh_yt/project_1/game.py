@@ -11,9 +11,16 @@
 
 import random
 import os
+from typing import Literal
 
 
-def show_intro_and_rules():
+# Game-level result values used across winner logic and score updates.
+GameResult = Literal["player", "computer", "tie"]
+# Session score container shape: played/player_wins/computer_wins/ties.
+SessionStats = dict[str, int]
+
+
+def show_intro_and_rules() -> None:
     """Display a short game introduction and the Snake-Water-Gun rules."""
     print("\nWelcome to Snake Water Gun!")
     print(
@@ -27,12 +34,13 @@ def show_intro_and_rules():
     print("4. If both choices are same, the move is a tie.")
 
 
-def clear_screen():
+def clear_screen() -> None:
     """Clear terminal output for Windows and Unix-like systems."""
+    # Use platform-specific clear command for better portability.
     os.system("cls" if os.name == "nt" else "clear")
 
 
-def get_player_name():
+def get_player_name() -> str:
     """Read, validate, and return a non-empty player name."""
     while True:
         name = input("\nEnter your player name: ").strip()
@@ -41,16 +49,19 @@ def get_player_name():
         print("Player name cannot be empty. Please try again.")
 
 
-def get_level_details(player_name, session_stats):
+def get_level_details(
+    player_name: str, session_stats: SessionStats
+) -> tuple[str | None, int | None]:
     """Return selected level and move count, or (None, None) to exit."""
     # Harder levels have fewer moves.
-    level_map = {
+    level_map: dict[str, int] = {
         "easy": 7,
         "medium": 5,
         "hard": 3,
     }
 
     while True:
+        # Keep the rules visible at the top before each level choice.
         clear_screen()
         show_intro_and_rules()
 
@@ -75,7 +86,7 @@ def get_level_details(player_name, session_stats):
         print("Invalid level. Please choose easy, medium, or hard.")
 
 
-def decide_winner(user_choice, computer_choice):
+def decide_winner(user_choice: str, computer_choice: str) -> GameResult:
     """Evaluate one move and return 'player', 'computer', or 'tie'."""
     # Same choice means no one wins the move.
     if user_choice == computer_choice:
@@ -93,10 +104,10 @@ def decide_winner(user_choice, computer_choice):
     return "computer"
 
 
-def play_game(player_name, level, total_moves):
+def play_game(player_name: str, level: str, total_moves: int) -> GameResult:
     """Run one game session for selected level and return game winner."""
     # Available moves in the game.
-    options = ("snake", "water", "gun")
+    options: tuple[str, str, str] = ("snake", "water", "gun")
     # Per-game score counters reset for every new game.
     player_score = 0
     computer_score = 0
@@ -161,7 +172,7 @@ def play_game(player_name, level, total_moves):
         return "tie"
 
 
-def show_session_scoreboard(player_name, session_stats):
+def show_session_scoreboard(player_name: str, session_stats: SessionStats) -> None:
     """Print cumulative score for the current program session."""
     print("\nSession Scoreboard")
     print(f"Games played: {session_stats['played']}")
@@ -170,13 +181,13 @@ def show_session_scoreboard(player_name, session_stats):
     print(f"Tied games: {session_stats['ties']}")
 
 
-def snake_water_gun():
+def snake_water_gun() -> None:
     """Program entry: handle setup, repeated games, and session scoring."""
     clear_screen()
     show_intro_and_rules()
     player_name = get_player_name()
     # Session score persists across multiple games in one program run.
-    session_stats = {
+    session_stats: SessionStats = {
         "played": 0,
         "player_wins": 0,
         "computer_wins": 0,
@@ -189,7 +200,10 @@ def snake_water_gun():
         if level is None:
             print(f"\nThanks for playing, {player_name}!")
             break
+        # `total_moves` is guaranteed when level is valid; this narrows type for checkers.
+        assert total_moves is not None
 
+        # Start each game with a clean screen and rules shown first.
         clear_screen()
         show_intro_and_rules()
 
@@ -218,6 +232,7 @@ def snake_water_gun():
             if play_again == "yes":
                 break
             if play_again == "no":
+                show_session_scoreboard(player_name, session_stats)
                 print(f"\nThanks for playing, {player_name}!")
                 return
             print("Invalid input. Please type yes, no, or score.")
