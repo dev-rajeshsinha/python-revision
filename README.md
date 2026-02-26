@@ -45,6 +45,14 @@ python-revision/
 │   ├── problems/     #   Problem statements
 │   └── solutions/    #   Worked solutions
 │
+├── leetcode/         # LeetCode problem solutions organised by topic
+│   ├── arrays_and_hashing/
+│   ├── two_pointers/
+│   ├── sliding_window/
+│   ├── trees/
+│   ├── dynamic_programming/
+│   └── ...           #   (see leetcode/README.md for full list)
+│
 ├── materials/        # PDFs, cheat-sheets, and external references
 │
 ├── .gitignore
@@ -92,6 +100,14 @@ No external dependencies are required for most scripts. If a topic-specific `req
 ```bash
 pip install -r <folder>/requirements.txt
 ```
+
+---
+
+## 🧩 LeetCode Solutions
+
+This repository also contains a dedicated LeetCode solutions section, organised by topic and following the [NeetCode roadmap](https://neetcode.io/roadmap).
+
+➡️ **[Browse LeetCode solutions →](leetcode/README.md)**
 
 ---
 
