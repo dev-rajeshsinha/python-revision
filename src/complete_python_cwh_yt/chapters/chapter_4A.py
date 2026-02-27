@@ -216,10 +216,6 @@ new_list = sample_list[::2]
 print(
     f"New List created from sample_list[::2]: {new_list}"
 )  # Output: [1, 3, 4.5, None]
-new_list = sample_list
-print(
-    f"New List created from sample_list: {new_list}"
-)  # Output: [1, 2, 3, 'Hello', 4.5, True, None]
 
 # We can also use slicing to reverse a list. The syntax for reversing a list using slicing is reversed_list = original_list[::-1], where original_list is the list to be reversed. This creates a new list that is a reversed version of the original list. The original list remains unchanged.
 
