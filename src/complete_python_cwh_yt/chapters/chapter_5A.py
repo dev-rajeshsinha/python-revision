@@ -166,3 +166,35 @@ print(f"Cleared Dictionary: {sample_dict}")  # Output: {}
 print()  # Just to add a newline for better readability
 
 # ------------------------------------------------------------------------------------------------------------------------------------------
+
+# We can merge two dictionaries in Python using the update() method or the | operator (introduced in Python 3.9). The update() method modifies the original dictionary by adding key-value pairs from another dictionary, while the | operator creates a new dictionary that contains the key-value pairs from both dictionaries.
+
+dict1 = {"a": 1, "b": 2}
+dict2 = {"b": 3, "c": 4}
+
+# Merging using update() method
+
+print(f"Original dict1: {dict1}")  # Output: {'a': 1, 'b': 2}
+print(f"Original dict2: {dict2}")  # Output: {'b': 3, 'c': 4}
+dict1.update(dict2)
+print(f"Merged dict1 using update(): {dict1}")  # Output: {'a': 1, 'b': 3, 'c': 4}
+print()  # Just to add a newline for better readability
+
+# Merging using | operator (Python 3.9 and later)
+
+dict1 = {"a": 1, "b": 2}
+dict2 = {"b": 3, "c": 4}
+print(f"Original dict1: {dict1}")  # Output: {'a': 1, 'b': 2}
+print(f"Original dict2: {dict2}")  # Output: {'b': 3, 'c': 4}
+merged_dict = dict1 | dict2
+print(
+    f"Merged dictionary using | operator: {merged_dict}"
+)  # Output: {'a': 1, 'b': 3, 'c': 4}
+print(
+    f"Original dict1 after merging with | operator: {dict1}"
+)  # Output: {'a': 1, 'b': 2}
+print()  # Just to add a newline for better readability
+
+# When merging dictionaries, if there are duplicate keys, the value from the second dictionary will overwrite the value from the first dictionary. In the examples above, the key 'b' is present in both dict1 and dict2, and the value from dict2 (3) overwrites the value from dict1 (2) in the merged result.
+
+# -------------------------------------------------------------------------------------------------------------------------------------------
