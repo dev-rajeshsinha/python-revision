@@ -1,0 +1,8 @@
+# Jarvis virtual assistant dependencies
+wikipedia==1.4.0
+pyjokes==0.6.0
+SpeechRecognition==3.10.4
+PyAudio==0.2.14
+gTTS==2.5.1
+pygame==2.6.1
+setuptools==82.0.1
