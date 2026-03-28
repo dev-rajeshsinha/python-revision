@@ -1,0 +1,652 @@
+# Synthetic user data logs for learning/testing only
+# Do not use real personal credentials in practice files.
+
+Record: 0001
+Timestamp: 2026-02-26T09:00:01Z
+UserID: U10001
+Name: Aanya Sharma
+Email: aanya.sharma01@example.com
+Password: Pass@10001
+Phone: +91-9000000001
+IP: 10.0.1.11
+Location: Delhi, IN
+Device: Android 13
+Action: Login
+Status: Success
+
+Record: 0002
+Timestamp: 2026-02-26T09:01:13Z
+UserID: U10002
+Name: Rohan Verma
+Email: rohan.verma02@example.com
+Password: Rv#2026!02
+Phone: +91-9000000002
+IP: 10.0.1.12
+Location: Mumbai, IN
+Device: iOS 17
+Action: Password Reset
+Status: Success
+
+Record: 0003
+Timestamp: 2026-02-26T09:02:25Z
+UserID: U10003
+Name: Neha Gupta
+Email: neha.gupta03@example.com
+Password: Ng_03$Secure
+Phone: +91-9000000003
+IP: 10.0.1.13
+Location: Bengaluru, IN
+Device: Windows 11
+Action: Profile Update
+Status: Success
+
+Record: 0004
+Timestamp: 2026-02-26T09:03:48Z
+UserID: U10004
+Name: Arjun Nair
+Email: arjun.nair04@example.com
+Password: Arjun@0404
+Phone: +91-9000000004
+IP: 10.0.1.14
+Location: Chennai, IN
+Device: Ubuntu 24.04
+Action: Login
+Status: Failed
+
+Record: 0005
+Timestamp: 2026-02-26T09:04:59Z
+UserID: U10005
+Name: Priya Iyer
+Email: priya.iyer05@example.com
+Password: Pi!0505xyz
+Phone: +91-9000000005
+IP: 10.0.1.15
+Location: Hyderabad, IN
+Device: macOS 14
+Action: Login
+Status: Success
+
+Record: 0006
+Timestamp: 2026-02-26T09:06:05Z
+UserID: U10006
+Name: Kabir Singh
+Email: kabir.singh06@example.com
+Password: Kb06#Auth
+Phone: +91-9000000006
+IP: 10.0.1.16
+Location: Pune, IN
+Device: Android 14
+Action: Logout
+Status: Success
+
+Record: 0007
+Timestamp: 2026-02-26T09:07:16Z
+UserID: U10007
+Name: Meera Joshi
+Email: meera.joshi07@example.com
+Password: Mj07$Data
+Phone: +91-9000000007
+IP: 10.0.1.17
+Location: Kolkata, IN
+Device: iPadOS 17
+Action: Login
+Status: Success
+
+Record: 0008
+Timestamp: 2026-02-26T09:08:38Z
+UserID: U10008
+Name: Dev Malhotra
+Email: dev.malhotra08@example.com
+Password: Dm08!Token
+Phone: +91-9000000008
+IP: 10.0.1.18
+Location: Jaipur, IN
+Device: Windows 10
+Action: File Upload
+Status: Success
+
+Record: 0009
+Timestamp: 2026-02-26T09:09:44Z
+UserID: U10009
+Name: Sana Khan
+Email: sana.khan09@example.com
+Password: Sk09@Vault
+Phone: +91-9000000009
+IP: 10.0.1.19
+Location: Lucknow, IN
+Device: Android 12
+Action: Login
+Status: Failed
+
+Record: 0010
+Timestamp: 2026-02-26T09:10:57Z
+UserID: U10010
+Name: Rahul Das
+Email: rahul.das10@example.com
+Password: Rd10#Alpha
+Phone: +91-9000000010
+IP: 10.0.1.20
+Location: Ahmedabad, IN
+Device: Linux Mint
+Action: Login
+Status: Success
+
+Record: 0011
+Timestamp: 2026-02-26T09:12:10Z
+UserID: U10011
+Name: Ishita Roy
+Email: ishita.roy11@example.com
+Password: Ir11$Beta
+Phone: +91-9000000011
+IP: 10.0.1.21
+Location: Surat, IN
+Device: macOS 13
+Action: 2FA Enable
+Status: Success
+
+Record: 0012
+Timestamp: 2026-02-26T09:13:28Z
+UserID: U10012
+Name: Mohit Jain
+Email: mohit.jain12@example.com
+Password: Mj12!Gamma
+Phone: +91-9000000012
+IP: 10.0.1.22
+Location: Indore, IN
+Device: Android 14
+Action: Login
+Status: Success
+
+Record: 0013
+Timestamp: 2026-02-26T09:14:39Z
+UserID: U10013
+Name: Pooja Rao
+Email: pooja.rao13@example.com
+Password: Pr13@Delta
+Phone: +91-9000000013
+IP: 10.0.1.23
+Location: Bhopal, IN
+Device: iOS 16
+Action: Password Change
+Status: Success
+
+Record: 0014
+Timestamp: 2026-02-26T09:15:52Z
+UserID: U10014
+Name: Vikram Kulkarni
+Email: vikram.kulkarni14@example.com
+Password: Vk14#Epsilon
+Phone: +91-9000000014
+IP: 10.0.1.24
+Location: Nagpur, IN
+Device: Windows 11
+Action: Login
+Status: Failed
+
+Record: 0015
+Timestamp: 2026-02-26T09:16:59Z
+UserID: U10015
+Name: Tanya Mehta
+Email: tanya.mehta15@example.com
+Password: Tm15$Zeta
+Phone: +91-9000000015
+IP: 10.0.1.25
+Location: Patna, IN
+Device: Ubuntu 22.04
+Action: Login
+Status: Success
+
+Record: 0016
+Timestamp: 2026-02-26T09:18:07Z
+UserID: U10016
+Name: Aditya Bose
+Email: aditya.bose16@example.com
+Password: Ab16!Eta
+Phone: +91-9000000016
+IP: 10.0.1.26
+Location: Kochi, IN
+Device: Android 13
+Action: API Token Create
+Status: Success
+
+Record: 0017
+Timestamp: 2026-02-26T09:19:22Z
+UserID: U10017
+Name: Nisha Pillai
+Email: nisha.pillai17@example.com
+Password: Np17@Theta
+Phone: +91-9000000017
+IP: 10.0.1.27
+Location: Goa, IN
+Device: iOS 17
+Action: Login
+Status: Success
+
+Record: 0018
+Timestamp: 2026-02-26T09:20:31Z
+UserID: U10018
+Name: Karan Arora
+Email: karan.arora18@example.com
+Password: Ka18#Iota
+Phone: +91-9000000018
+IP: 10.0.1.28
+Location: Noida, IN
+Device: Fedora 41
+Action: Login
+Status: Failed
+
+Record: 0019
+Timestamp: 2026-02-26T09:21:48Z
+UserID: U10019
+Name: Simran Bedi
+Email: simran.bedi19@example.com
+Password: Sb19$Kappa
+Phone: +91-9000000019
+IP: 10.0.1.29
+Location: Chandigarh, IN
+Device: Android 12
+Action: Profile Update
+Status: Success
+
+Record: 0020
+Timestamp: 2026-02-26T09:22:57Z
+UserID: U10020
+Name: Yash Tiwari
+Email: yash.tiwari20@example.com
+Password: Yt20!Lambda
+Phone: +91-9000000020
+IP: 10.0.1.30
+Location: Kanpur, IN
+Device: Windows 10
+Action: Login
+Status: Success
+
+Record: 0021
+Timestamp: 2026-02-26T09:24:03Z
+UserID: U10021
+Name: Ritu Sethi
+Email: ritu.sethi21@example.com
+Password: Rs21@Mu
+Phone: +91-9000000021
+IP: 10.0.1.31
+Location: Mysuru, IN
+Device: macOS 14
+Action: Logout
+Status: Success
+
+Record: 0022
+Timestamp: 2026-02-26T09:25:18Z
+UserID: U10022
+Name: Aman Oberoi
+Email: aman.oberoi22@example.com
+Password: Ao22#Nu
+Phone: +91-9000000022
+IP: 10.0.1.32
+Location: Vizag, IN
+Device: Android 14
+Action: Login
+Status: Success
+
+Record: 0023
+Timestamp: 2026-02-26T09:26:29Z
+UserID: U10023
+Name: Lavanya Sen
+Email: lavanya.sen23@example.com
+Password: Ls23$Xi
+Phone: +91-9000000023
+IP: 10.0.1.33
+Location: Raipur, IN
+Device: iOS 16
+Action: Login
+Status: Failed
+
+Record: 0024
+Timestamp: 2026-02-26T09:27:47Z
+UserID: U10024
+Name: Nitin Chawla
+Email: nitin.chawla24@example.com
+Password: Nc24!Omicron
+Phone: +91-9000000024
+IP: 10.0.1.34
+Location: Ranchi, IN
+Device: Ubuntu 24.04
+Action: File Download
+Status: Success
+
+Record: 0025
+Timestamp: 2026-02-26T09:28:54Z
+UserID: U10025
+Name: Bhavna Kapoor
+Email: bhavna.kapoor25@example.com
+Password: Bk25@Pi
+Phone: +91-9000000025
+IP: 10.0.1.35
+Location: Gwalior, IN
+Device: Windows 11
+Action: Login
+Status: Success
+
+Record: 0026
+Timestamp: 2026-02-26T09:30:08Z
+UserID: U10026
+Name: Zoya Ali
+Email: zoya.ali26@example.com
+Password: Za26#Rho
+Phone: +91-9000000026
+IP: 10.0.1.36
+Location: Srinagar, IN
+Device: Android 13
+Action: Password Reset
+Status: Success
+
+Record: 0027
+Timestamp: 2026-02-26T09:31:20Z
+UserID: U10027
+Name: Harsh Vardhan
+Email: harsh.vardhan27@example.com
+Password: Hv27$Sigma
+Phone: +91-9000000027
+IP: 10.0.1.37
+Location: Jammu, IN
+Device: iPadOS 16
+Action: Login
+Status: Success
+
+Record: 0028
+Timestamp: 2026-02-26T09:32:41Z
+UserID: U10028
+Name: Reena Thomas
+Email: reena.thomas28@example.com
+Password: Rt28!Tau
+Phone: +91-9000000028
+IP: 10.0.1.38
+Location: Trivandrum, IN
+Device: macOS 13
+Action: Login
+Status: Failed
+
+Record: 0029
+Timestamp: 2026-02-26T09:33:53Z
+UserID: U10029
+Name: Om Prakash
+Email: om.prakash29@example.com
+Password: Op29@Upsilon
+Phone: +91-9000000029
+IP: 10.0.1.39
+Location: Dehradun, IN
+Device: Fedora 40
+Action: 2FA Disable
+Status: Success
+
+Record: 0030
+Timestamp: 2026-02-26T09:35:07Z
+UserID: U10030
+Name: Gauri Patil
+Email: gauri.patil30@example.com
+Password: Gp30#Phi
+Phone: +91-9000000030
+IP: 10.0.1.40
+Location: Nashik, IN
+Device: Android 12
+Action: Login
+Status: Success
+
+Record: 0031
+Timestamp: 2026-02-26T09:36:19Z
+UserID: U10031
+Name: Farhan Khan
+Email: farhan.khan31@example.com
+Password: Fk31$Chi
+Phone: +91-9000000031
+IP: 10.0.1.41
+Location: Amritsar, IN
+Device: Windows 10
+Action: API Key Rotate
+Status: Success
+
+Record: 0032
+Timestamp: 2026-02-26T09:37:28Z
+UserID: U10032
+Name: Diya Menon
+Email: diya.menon32@example.com
+Password: Dm32!Psi
+Phone: +91-9000000032
+IP: 10.0.1.42
+Location: Udaipur, IN
+Device: Ubuntu 22.04
+Action: Login
+Status: Success
+
+Record: 0033
+Timestamp: 2026-02-26T09:38:43Z
+UserID: U10033
+Name: Saurabh Ghosh
+Email: saurabh.ghosh33@example.com
+Password: Sg33@Omega
+Phone: +91-9000000033
+IP: 10.0.1.43
+Location: Siliguri, IN
+Device: Android 14
+Action: Login
+Status: Failed
+
+Record: 0034
+Timestamp: 2026-02-26T09:39:55Z
+UserID: U10034
+Name: Kriti Soni
+Email: kriti.soni34@example.com
+Password: Ks34#Node
+Phone: +91-9000000034
+IP: 10.0.1.44
+Location: Jodhpur, IN
+Device: iOS 17
+Action: Login
+Status: Success
+
+Record: 0035
+Timestamp: 2026-02-26T09:41:12Z
+UserID: U10035
+Name: Paramjeet Gill
+Email: paramjeet.gill35@example.com
+Password: Pg35$Loop
+Phone: +91-9000000035
+IP: 10.0.1.45
+Location: Ludhiana, IN
+Device: Linux Mint
+Action: Logout
+Status: Success
+
+Record: 0036
+Timestamp: 2026-02-26T09:42:24Z
+UserID: U10036
+Name: Aisha Noor
+Email: aisha.noor36@example.com
+Password: An36!Stack
+Phone: +91-9000000036
+IP: 10.0.1.46
+Location: Aligarh, IN
+Device: Windows 11
+Action: Login
+Status: Success
+
+Record: 0037
+Timestamp: 2026-02-26T09:43:37Z
+UserID: U10037
+Name: Tarun Bansal
+Email: tarun.bansal37@example.com
+Password: Tb37@Queue
+Phone: +91-9000000037
+IP: 10.0.1.47
+Location: Meerut, IN
+Device: Android 13
+Action: Login
+Status: Failed
+
+Record: 0038
+Timestamp: 2026-02-26T09:44:49Z
+UserID: U10038
+Name: Saloni Arora
+Email: saloni.arora38@example.com
+Password: Sa38#Array
+Phone: +91-9000000038
+IP: 10.0.1.48
+Location: Agra, IN
+Device: macOS 14
+Action: Password Change
+Status: Success
+
+Record: 0039
+Timestamp: 2026-02-26T09:45:58Z
+UserID: U10039
+Name: Manav Kapoor
+Email: manav.kapoor39@example.com
+Password: Mk39$Hash
+Phone: +91-9000000039
+IP: 10.0.1.49
+Location: Varanasi, IN
+Device: Ubuntu 24.04
+Action: Login
+Status: Success
+
+Record: 0040
+Timestamp: 2026-02-26T09:47:11Z
+UserID: U10040
+Name: Isha Batra
+Email: isha.batra40@example.com
+Password: Ib40!Cipher
+Phone: +91-9000000040
+IP: 10.0.1.50
+Location: Bhubaneswar, IN
+Device: iOS 16
+Action: Login
+Status: Success
+
+Record: 0041
+Timestamp: 2026-02-26T09:48:20Z
+UserID: U10041
+Name: Kunal Rao
+Email: kunal.rao41@example.com
+Password: Kr41@Matrix
+Phone: +91-9000000041
+IP: 10.0.1.51
+Location: Mangalore, IN
+Device: Android 12
+Action: Login
+Status: Failed
+
+Record: 0042
+Timestamp: 2026-02-26T09:49:33Z
+UserID: U10042
+Name: Rhea Chopra
+Email: rhea.chopra42@example.com
+Password: Rc42#Vector
+Phone: +91-9000000042
+IP: 10.0.1.52
+Location: Shimla, IN
+Device: Windows 10
+Action: Login
+Status: Success
+
+Record: 0043
+Timestamp: 2026-02-26T09:50:47Z
+UserID: U10043
+Name: Aniket Saha
+Email: aniket.saha43@example.com
+Password: As43$Kernel
+Phone: +91-9000000043
+IP: 10.0.1.53
+Location: Guwahati, IN
+Device: Fedora 41
+Action: API Token Revoke
+Status: Success
+
+Record: 0044
+Timestamp: 2026-02-26T09:52:01Z
+UserID: U10044
+Name: Priti Rawat
+Email: priti.rawat44@example.com
+Password: Pr44!Thread
+Phone: +91-9000000044
+IP: 10.0.1.54
+Location: Haridwar, IN
+Device: Android 14
+Action: Login
+Status: Success
+
+Record: 0045
+Timestamp: 2026-02-26T09:53:17Z
+UserID: U10045
+Name: Danish Qureshi
+Email: danish.qureshi45@example.com
+Password: Dq45@Socket
+Phone: +91-9000000045
+IP: 10.0.1.55
+Location: Aurangabad, IN
+Device: Ubuntu 22.04
+Action: Login
+Status: Failed
+
+Record: 0046
+Timestamp: 2026-02-26T09:54:31Z
+UserID: U10046
+Name: Sneha Pillai
+Email: sneha.pillai46@example.com
+Password: Sp46#Buffer
+Phone: +91-9000000046
+IP: 10.0.1.56
+Location: Coimbatore, IN
+Device: iPadOS 17
+Action: File Upload
+Status: Success
+
+Record: 0047
+Timestamp: 2026-02-26T09:55:44Z
+UserID: U10047
+Name: Vivek Reddy
+Email: vivek.reddy47@example.com
+Password: Vr47$Binary
+Phone: +91-9000000047
+IP: 10.0.1.57
+Location: Vijayawada, IN
+Device: Windows 11
+Action: Login
+Status: Success
+
+Record: 0048
+Timestamp: 2026-02-26T09:56:59Z
+UserID: U10048
+Name: Heena Shaikh
+Email: heena.shaikh48@example.com
+Password: Hs48!Parser
+Phone: +91-9000000048
+IP: 10.0.1.58
+Location: Madurai, IN
+Device: Android 13
+Action: Login
+Status: Failed
+
+Record: 0049
+Timestamp: 2026-02-26T09:58:13Z
+UserID: U10049
+Name: Tejas Pathak
+Email: tejas.pathak49@example.com
+Password: Tp49@Render
+Phone: +91-9000000049
+IP: 10.0.1.59
+Location: Salem, IN
+Device: macOS 13
+Action: Login
+Status: Success
+
+Record: 0050
+Timestamp: 2026-02-26T09:59:27Z
+UserID: U10050
+Name: Mitali Desai
+Email: mitali.desai50@example.com
+Password: Md50#Compile
+Phone: +91-9000000050
+IP: 10.0.1.60
+Location: Rajkot, IN
+Device: Linux Mint
+Action: Password Reset
+Status: Success

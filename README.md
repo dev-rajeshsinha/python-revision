@@ -28,24 +28,8 @@ Whether you are skimming for a quick reference or following along systematically
 
 ```
 python-revision/
-├── src/              # Runnable Python scripts organised by topic
-│   ├── basics/       #   Variables, data types, operators, I/O
-│   ├── control_flow/ #   Conditionals, loops
-│   ├── functions/    #   Functions, lambdas, decorators
-│   ├── oop/          #   Classes, inheritance, dunder methods
-│   ├── modules/      #   Imports, packages, standard library
-│   ├── file_io/      #   File handling, context managers
-│   ├── exceptions/   #   Error handling, custom exceptions
-│   └── advanced/     #   Generators, comprehensions, async, etc.
-│
-├── notes/            # Markdown notes and concept summaries
-│   └── <topic>.md
-│
-├── exercises/        # Practice problems and solutions
-│   ├── problems/     #   Problem statements
-│   └── solutions/    #   Worked solutions
-│
-├── materials/        # PDFs, cheat-sheets, and external references
+├── src/                                # Runnable Python scripts organised by tutorials
+│   ├── complete_python_cwh_yt/         # Complete Python YouTube Tutorial from Code With Harry
 │
 ├── .gitignore
 ├── LICENSE
@@ -99,9 +83,9 @@ pip install -r <folder>/requirements.txt
 
 The content in this repository is drawn from the following sources. New sources will be added as the revision journey continues.
 
-| Source | Type | Link / Reference |
-|---|---|---|
-| _Add tutorial name here_ | YouTube / Book / Workshop | _Add link or reference_ |
+| Source                        | Type    | Link                         |
+| ----------------------------- | ------- | ---------------------------- |
+| Complete Python Tutorial 2026 | YouTube | https://youtu.be/UrsmFxEIp5k |
 
 > This section will be updated as new learning materials are added.
 
